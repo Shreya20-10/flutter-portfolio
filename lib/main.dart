@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.blue,
           elevatedButtonTheme: elevatedButtonThemeData),
+      debugShowCheckedModeBanner: false,
       home: const HomeScreen(),
     );
   }

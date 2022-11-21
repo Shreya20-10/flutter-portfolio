@@ -7,21 +7,22 @@ Color kWhite = Colors.white;
 Color kBlack = Colors.black;
 
 TextStyle kTitleText = GoogleFonts.poppins(
-  color: Colors.black,
-  fontSize: 28.0,
+  color: Colors.white,
+  fontSize: 35.0,
+  wordSpacing: 4.0,
   fontWeight: FontWeight.bold,
 );
 
 TextStyle kSubTitleText = GoogleFonts.montserrat(
-  color: kPrimaryColor,
+  color: Colors.white70,
   fontWeight: FontWeight.bold,
-  fontSize: 12.0,
+  fontSize: 16.0,
 );
 
 TextStyle kSectionTitleText = GoogleFonts.montserrat(
-  color: kPrimaryColor,
+  color: Colors.white70,
   fontWeight: FontWeight.bold,
-  fontSize: 18.0,
+  fontSize: 22.0,
 );
 
 ElevatedButtonThemeData elevatedButtonThemeData = ElevatedButtonThemeData(
